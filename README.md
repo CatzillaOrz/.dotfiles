@@ -54,3 +54,15 @@
 ## Plugins
 
 - [awesom-neovim](https://github.com/rockerBOO/awesome-neovim)
+
+## proxy
+
+```bash
+npm config set http-proxy http://127.0.0.1:8889
+npm config set https-proxy http://127.0.0.1:8889/
+```
+```bash
+git config --global http.proxy 127.0.0.1:8889
+git config --global http.sslverify false
+```
+
