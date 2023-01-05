@@ -1,5 +1,6 @@
-#  catzilla's `.dotfile`
+#  catzilla's `.dotfiles`
 
+- 0 to 1 vim + lua + lsp
 - Vim is the best!
 - You're going to fly by using vim + lsp
 - Enjoy!
