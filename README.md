@@ -32,11 +32,20 @@
 
 - tokyonight
 - power10k
-- iterm2
+- [iterm2](https://iterm2.com/)
 - font&icon: MesloLGS NF
+
+## iterm2 plugin
+
+- [fig](https://fig.io/) ofcourse it's Free
+- enjoy!
 
 ## how to use
 
 - nvim init.vim
 - only use lua: required('lanvim')
 - done
+
+## Plugins
+
+- [awesom-neovim](https://github.com/rockerBOO/awesome-neovim)
