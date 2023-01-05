@@ -54,6 +54,7 @@
 ## Plugins
 
 - [awesom-neovim](https://github.com/rockerBOO/awesome-neovim)
+- [lsp-zero](https://github.com/VonHeikemen/lsp-zero.nvim)
 
 ## proxy
 
