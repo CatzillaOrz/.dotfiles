@@ -13,6 +13,7 @@
 
 - neovim 8.0+
 - tmux
+- vim-plug
 - packer.nvim
 - lua
 - python3
