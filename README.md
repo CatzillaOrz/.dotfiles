@@ -1,5 +1,9 @@
 #  catzilla's `.dotfiles`
 
+* `如果你从未使用过vim来编程，那你从来也没有真正活过`
+* `If you nerver used vim, you never lived!`
+---
+
 - 0 to 1 vim + lua + lsp
 - Vim is the best!
 - You're going to fly by using vim + lsp
