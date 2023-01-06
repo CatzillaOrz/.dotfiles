@@ -31,10 +31,17 @@ set colorcolumn=80
 
 call plug#begin('~/.config/nvim/plugged')
 Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
+Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-telescope/telescope.nvim'
 Plug 'preservim/nerdtree'
+"Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'akinsho/toggleterm.nvim', {'tag' : '*'}
+Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'make' }
 Plug 'f-person/git-blame.nvim'
 Plug 'windwp/nvim-autopairs'
+
+
 
 call plug#end()
 
