@@ -1,5 +1,5 @@
-set exrc
 set guicursor=
+set exrc
 set relativenumber
 set nu
 set nohlsearch
@@ -31,21 +31,10 @@ set colorcolumn=80
 
 call plug#begin('~/.config/nvim/plugged')
 Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
-Plug 'nvim-lua/plenary.nvim'
-Plug 'nvim-telescope/telescope.nvim'
 Plug 'preservim/nerdtree'
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'akinsho/toggleterm.nvim', {'tag' : '*'}
-Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'make' }
 Plug 'f-person/git-blame.nvim'
-Plug 'kdheepak/lazygit.nvim'
-Plug 'sindrets/diffview.nvim'
 Plug 'windwp/nvim-autopairs'
-Plug 'honza/vim-snippets'
-Plug 'digitaltoad/vim-pug'
-
-
 
 call plug#end()
 
