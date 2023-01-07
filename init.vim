@@ -32,6 +32,7 @@ set colorcolumn=80
 call plug#begin('~/.config/nvim/plugged')
 Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
 Plug 'nvim-lua/plenary.nvim'
+
 Plug 'nvim-telescope/telescope.nvim'
 Plug 'preservim/nerdtree'
 "Plug 'neoclide/coc.nvim', {'branch': 'release'}
