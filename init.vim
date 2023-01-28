@@ -34,7 +34,7 @@ Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
 Plug 'nvim-lua/plenary.nvim'
 
 Plug 'nvim-telescope/telescope.nvim'
-Plug 'preservim/nerdtree'
+"Plug 'preservim/nerdtree'
 "Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'akinsho/toggleterm.nvim', {'tag' : '*'}
@@ -51,7 +51,7 @@ colorscheme tokyonight-moon
 "let g:coc_global_extensions = ['coc-json', 'coc-tsserver', 'coc-emmet', 'coc-tslint', 'coc-prettier']
 let mapleader = " "
 " nerdtree
-nnoremap <leader>n :NERDTreeFind<CR>
+"nnoremap <leader>n :NERDTreeFind<CR>
 
 " Some servers have issues with backup files, see #649.
 set nobackup
