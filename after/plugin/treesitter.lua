@@ -23,8 +23,8 @@ require'nvim-treesitter.configs'.setup {
         "tsx",
         "vue",
         "yaml",
-        "c",
-        "c_sharp",
+        --"c",
+        --"c_sharp",
         "dockerfile",
     },
     autotag = {
