@@ -64,4 +64,6 @@ set updatetime=300
 " Always show the signcolumn, otherwise it would shift the text each time
 " diagnostics appear/become resolved.
 set signcolumn=yes
+
+let g:netrw_bufsettings = 'noma nomod nu nobl nowrap ro'
 lua require('lanvim')

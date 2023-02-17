@@ -1,6 +1,6 @@
-require("nvim-treesitter.install").command_extra_args = {
-    curl = { "--proxy", "http://127.0.0.1:8889" },
-}
+--require("nvim-treesitter.install").command_extra_args = {
+--    curl = { "--proxy", "http://127.0.0.1:8889" },
+--}
 require'nvim-treesitter.configs'.setup {
     -- A list of parser names, or "all"
     ensure_installed = {
