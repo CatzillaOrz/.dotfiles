@@ -38,6 +38,14 @@ return require('packer').startup(function(use)
         use {
             "jose-elias-alvarez/null-ls.nvim",
             "jayp0521/mason-null-ls.nvim",
+        },
+
+        -- dapui 
+        use { "rcarriga/nvim-dap-ui", requires = {"mfussenegger/nvim-dap"} },
+
+        use{
+            'mfussenegger/nvim-dap',
+            'theHamsta/nvim-dap-virtual-text'
         }
     }
 end
