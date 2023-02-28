@@ -40,6 +40,7 @@
 - power10k
 - [iterm2](https://iterm2.com/)
 - font&icon: MesloLGS NF
+- zsh
 
 ## iterm2 plugin
 
