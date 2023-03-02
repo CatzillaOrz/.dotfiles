@@ -43,6 +43,14 @@ vim.diagnostic.config({
     virtual_text = true,
 })
 
+-- format auto ESLint
+
+vim.api.nvim_create_autocmd('BufWritePre', {
+  pattern = { '*.tsx', '*.ts', '*.jsx', '*.js' },
+  command = 'silent! EslintFixAll',
+  group = vim.api.nvim_create_augroup('MyAutocmdsJavaScripFormatting', {}),
+})
+
 -- mason-null-ls config
 -- see documentation of null-null-ls for more configuration options!
 local mason_nullls = require("mason-null-ls")
