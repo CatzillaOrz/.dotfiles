@@ -46,7 +46,12 @@ return require('packer').startup(function(use)
         use{
             'mfussenegger/nvim-dap',
             'theHamsta/nvim-dap-virtual-text'
-        }
+        },
+
+        -- css
+        use {
+          'ap/vim-css-color'
+        },
     }
 end
 )
