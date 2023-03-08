@@ -7,7 +7,7 @@ telescope.setup {
     defaults = {
         color_devicons = false,
         prompt_prefix = "$ ",
-        file_ignore_patterns = { "^.git/", "node_modules" },
+        file_ignore_patterns = { "^.git/", "node_modules", "yarn.lock" },
         mappings = {
             i = {
                 ['<esc>'] = actions.close
