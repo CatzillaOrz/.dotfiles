@@ -20,7 +20,7 @@
 
 ## plugins prefer
 
-- telescope
+- telescope(BurntSushi/ripgrep is required)
 - lsp
 - treesitter
 - undotree 
