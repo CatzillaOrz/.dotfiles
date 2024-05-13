@@ -69,3 +69,10 @@ git config --global http.proxy 127.0.0.1:8889
 git config --global http.sslverify false
 ```
 
+```bash
+# config for wsl proxy(clash)
+export http_proxy="http://localhost:7890"
+export https_proxy="http://localhost:7890"
+export all_proxy="socks5://localhost:7891"
+
+```
