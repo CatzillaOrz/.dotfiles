@@ -1,16 +1,27 @@
 local lsp = require('lsp-zero')
 
-lsp.preset('recommended')
-lsp.ensure_installed({
+require('mason').setup({})
+require('mason-lspconfig').setup({
+  -- Replace the language servers listed here
+  -- with the ones you want to install
+  ensure_installed = {
     'tsserver',
     'eslint',
     'cssls',
     'html',
-    'sumneko_lua',
-    --'rust_analyzer',
+    'lua_ls',
+},
+  handlers = {
+    function(server_name)
+      require('lspconfig')[server_name].setup({})
+    end,
+  }
 })
 
-lsp.configure('sumneko_lua', {
+
+lsp.preset('recommended')
+
+lsp.configure('lua_ls', {
     settings = {
         Lua = {
             diagnostics = {
